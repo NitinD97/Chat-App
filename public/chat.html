@@ -49,8 +49,10 @@
     <h3 class="list-title">Users</h3>
     <ul class="users">
         {{ #users }}
-            <li><span class="dot" style="height: 12px;width: 12px;background-color: forestgreen;border-radius: 50%;display: inline-block;"></span> {{ username }}</li>
+            <hr>
+            <li style="padding-top: 5px;"><span class="span-dot"></span> {{ username }}</li>
         {{ /users }}
+        <hr>
     </ul>
 </script>
 

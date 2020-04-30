@@ -181,3 +181,16 @@ button:disabled {
     font-weight: 300;
     padding: 12px 24px 0 24px;
 }
+
+hr {
+    background: grey;
+    opacity: 6%;
+}
+
+.span-dot {
+    height: 12px;
+    width: 12px;
+    background-color: forestgreen;
+    border-radius: 50%;
+    display: inline-block;
+}
